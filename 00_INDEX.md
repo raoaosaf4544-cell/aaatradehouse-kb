@@ -1,6 +1,6 @@
 ---
 title: AAATradeHouse — Business Knowledge Base
-version: 1.0 (draft)
+version: 1.1 (merged with the 28 Sep draft)
 as_of: 2026-10-03
 owner: Rao Aosaf
 ---
@@ -32,6 +32,7 @@ The single reference for how this business works. It is written for people (Rao,
 | 11 | Glossary | Urdu/Punjabi trade words and units |
 | 12 | Rules_Never | The hard rules for people and AI |
 | 13 | Open_Questions | Gaps still to fill |
+| 14 | Decisions_Log | Dated owner decisions |
 
 ## Priority order (90 days, from Sept 2026) [stated]
 1. Private-label retail launch in Pakistan: 500 g and 900 g Himalayan pink salt.

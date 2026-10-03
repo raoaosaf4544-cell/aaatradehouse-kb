@@ -12,7 +12,10 @@ as_of: 2026-10-03
 - Transport: motorcycle (about Rs 125,000 incl. permit and fit-out). Fuel and petrol in account 5300.
 - Packing is done in separate rooms. The packing room must be brought up to PFA standard (see 07).
 - Mobile internet at the plant works but is slow and patchy.
-- [TBD] Crusher capacity (kg per hour or per day), shifts, electricity load.
+- [TBD] Crusher: owned or rented? Capacity (kg/day)? Who runs it, workers per shift?
+- [TBD] Plant land: owned or rented? Full postal address (needed for labels and PFA).
+- [TBD] Motorcycle "permit" line of Rs 75,000 is flagged "confirm 75,000 vs book".
+- [TBD] Raw salt source: which mine/area (Khewra / Warcha / Kalabagh / other)? Price per ton at the mine, and freight per truck to Khanewal? Can we get a written supply letter for export buyers?
 - [risk] Capacity claims: the website says "100+ tonnes/month". The books show about 2.7 t sold in the first 4 weeks, and the photos show one small crusher. Any capacity claim must be provable, or say "own plant plus partner network".
 
 ## How salt flows (and how the ledger records it)
@@ -25,7 +28,7 @@ as_of: 2026-10-03
 | Batch | Product | Came in | Landed cost | On hand |
 |---|---|---|---|---|
 | BATCH-001 | Rock salt (whole), raw | 3 Sep: 15,210 kg | Rs 114,270 (≈ Rs 7.51/kg) | **15,078 kg** |
-| BATCH-075 | Fine powder (bought crushed) | 14 Sep: 250 bags × 50 kg = 12,500 kg | Rs 117,500 (Rs 9.40/kg), booked on credit (AP) | **9,817.5 kg** |
+| BATCH-075 | Fine powder (bought crushed) | 14 Sep: 250 bags × 50 kg = 12,500 kg | Rs 117,500 (Rs 9.40/kg), bought on credit, **since paid** (suppliers owed = 0) | **9,817.5 kg** |
 
 - Total ≈ 24,895 kg, stock value ≈ Rs 205,563.
 - Known issue: sales on 6–13 Sep took stock from BATCH-075 before it arrived (14 Sep). The salt really came from BATCH-001 through an **unrecorded crushing**. Fix this at the first **physical stock count**.
@@ -34,9 +37,12 @@ as_of: 2026-10-03
 | What | Supplier | Terms |
 |---|---|---|
 | Raw rock salt (BATCH-001) | [TBD: name, mine or agent, location] | [TBD] |
-| Crushed salt (BATCH-075, 12 t, "Rao crushed salt inbound") | [TBD: supplier name] | Booked on credit (Rs 117,500). [TBD: paid yet?] |
+| Crushed salt (BATCH-075, 12.5 t) | [TBD: supplier name, standing price] | Bought on credit, since paid (Rs 117,500) |
 | Crushing contractor (when not done in-house) | [TBD] | Sometimes on credit [stated] |
-| Bags (bardaana), thread | [TBD] | Cash |
+| Bardaana (packing bags) | [TBD] | 700 bags for Rs 11,500 (2 Sep) ≈ Rs 16.40/bag, cash |
+| Sacks (bori), stitching thread | [TBD] | Rs 3,000 sacks, Rs 1,000 thread (10 Sep), cash |
+| Transport (salt moves) | [TBD transporter] | Freight Rs 400 + unloading Rs 2,400 (6 Sep) |
+| Retail pouches and label printing | [TBD] | [TBD price per 1,000, MOQ, lead time] |
 
 [stated] We sometimes buy salt and pay for crushing **on credit**, so supplier balances (account 2000) must be tracked by name.
 

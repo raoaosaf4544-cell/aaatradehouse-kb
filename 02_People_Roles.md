@@ -19,6 +19,8 @@ Family (not business roles): Esha (sister) and Muzna (Rao's wife). Esha's weddin
 | Qasim | Advance salary Rs 10,000 (29 Aug), meals, clothes | Role, monthly pay, start date |
 | Rafiq | Medicine, tea | Role, pay |
 | Ali | Fare sent to him (Rs 1,500, 4 Sep) | Who is Ali? |
+| Makhan | "Kiraya makhan" Rs 300 (3 Sep) | Person or place? |
+| Abid, Jabar | Gift/help (suspense clean-up) | One-off or recurring? |
 | Mistri (builder) | 7 days of building work (Rs 4,700 + Rs 6,000) | One-off or ongoing? |
 | Hamali / mazdoor (day labour) | Loading and unloading labour per job | Rates per bag or per day |
 

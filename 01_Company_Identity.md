@@ -32,7 +32,7 @@ as_of: 2026-10-03
 ## Contact details
 - **Office:** Office 42, Valencia Tower, Block K1, Valencia, Lahore. Rent is about Rs 5,700/month (3 months were pending in Sept). [stated]
 - **Plant (crushing and packing, owned and run by us):** near Kot Abbas Shaheed, Khanewal.
-- **Phone:** +92 317 4286226 [the hub prompt says …225 and the audit says …226. TBD: confirm the correct number]. A second company number, +92 300 351 3889, has also been mentioned. [TBD: confirm its role]
+- **Phone (official, both public):** +92 317 4286226 and +92 300 351 3889. [stated 3 Oct] (The number +92 317 4286225 in older documents is wrong. Check the website and labels for it.)
 - **Website:** aaatradehouse.com
 - **Social:** @aaatradehouse on Instagram, Facebook and LinkedIn.
 

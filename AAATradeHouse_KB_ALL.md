@@ -1,6 +1,6 @@
 ---
 title: AAATradeHouse — Business Knowledge Base
-version: 1.0 (draft)
+version: 1.1 (merged with the 28 Sep draft)
 as_of: 2026-10-03
 owner: Rao Aosaf
 ---
@@ -32,6 +32,7 @@ The single reference for how this business works. It is written for people (Rao,
 | 11 | Glossary | Urdu/Punjabi trade words and units |
 | 12 | Rules_Never | The hard rules for people and AI |
 | 13 | Open_Questions | Gaps still to fill |
+| 14 | Decisions_Log | Dated owner decisions |
 
 ## Priority order (90 days, from Sept 2026) [stated]
 1. Private-label retail launch in Pakistan: 500 g and 900 g Himalayan pink salt.
@@ -81,7 +82,7 @@ as_of: 2026-10-03
 ## Contact details
 - **Office:** Office 42, Valencia Tower, Block K1, Valencia, Lahore. Rent is about Rs 5,700/month (3 months were pending in Sept). [stated]
 - **Plant (crushing and packing, owned and run by us):** near Kot Abbas Shaheed, Khanewal.
-- **Phone:** +92 317 4286226 [the hub prompt says …225 and the audit says …226. TBD: confirm the correct number]. A second company number, +92 300 351 3889, has also been mentioned. [TBD: confirm its role]
+- **Phone (official, both public):** +92 317 4286226 and +92 300 351 3889. [stated 3 Oct] (The number +92 317 4286225 in older documents is wrong. Check the website and labels for it.)
 - **Website:** aaatradehouse.com
 - **Social:** @aaatradehouse on Instagram, Facebook and LinkedIn.
 
@@ -126,6 +127,8 @@ Family (not business roles): Esha (sister) and Muzna (Rao's wife). Esha's weddin
 | Qasim | Advance salary Rs 10,000 (29 Aug), meals, clothes | Role, monthly pay, start date |
 | Rafiq | Medicine, tea | Role, pay |
 | Ali | Fare sent to him (Rs 1,500, 4 Sep) | Who is Ali? |
+| Makhan | "Kiraya makhan" Rs 300 (3 Sep) | Person or place? |
+| Abid, Jabar | Gift/help (suspense clean-up) | One-off or recurring? |
 | Mistri (builder) | 7 days of building work (Rs 4,700 + Rs 6,000) | One-off or ongoing? |
 | Hamali / mazdoor (day labour) | Loading and unloading labour per job | Rates per bag or per day |
 
@@ -198,7 +201,10 @@ as_of: 2026-10-03
 - Transport: motorcycle (about Rs 125,000 incl. permit and fit-out). Fuel and petrol in account 5300.
 - Packing is done in separate rooms. The packing room must be brought up to PFA standard (see 07).
 - Mobile internet at the plant works but is slow and patchy.
-- [TBD] Crusher capacity (kg per hour or per day), shifts, electricity load.
+- [TBD] Crusher: owned or rented? Capacity (kg/day)? Who runs it, workers per shift?
+- [TBD] Plant land: owned or rented? Full postal address (needed for labels and PFA).
+- [TBD] Motorcycle "permit" line of Rs 75,000 is flagged "confirm 75,000 vs book".
+- [TBD] Raw salt source: which mine/area (Khewra / Warcha / Kalabagh / other)? Price per ton at the mine, and freight per truck to Khanewal? Can we get a written supply letter for export buyers?
 - [risk] Capacity claims: the website says "100+ tonnes/month". The books show about 2.7 t sold in the first 4 weeks, and the photos show one small crusher. Any capacity claim must be provable, or say "own plant plus partner network".
 
 ## How salt flows (and how the ledger records it)
@@ -211,7 +217,7 @@ as_of: 2026-10-03
 | Batch | Product | Came in | Landed cost | On hand |
 |---|---|---|---|---|
 | BATCH-001 | Rock salt (whole), raw | 3 Sep: 15,210 kg | Rs 114,270 (≈ Rs 7.51/kg) | **15,078 kg** |
-| BATCH-075 | Fine powder (bought crushed) | 14 Sep: 250 bags × 50 kg = 12,500 kg | Rs 117,500 (Rs 9.40/kg), booked on credit (AP) | **9,817.5 kg** |
+| BATCH-075 | Fine powder (bought crushed) | 14 Sep: 250 bags × 50 kg = 12,500 kg | Rs 117,500 (Rs 9.40/kg), bought on credit, **since paid** (suppliers owed = 0) | **9,817.5 kg** |
 
 - Total ≈ 24,895 kg, stock value ≈ Rs 205,563.
 - Known issue: sales on 6–13 Sep took stock from BATCH-075 before it arrived (14 Sep). The salt really came from BATCH-001 through an **unrecorded crushing**. Fix this at the first **physical stock count**.
@@ -220,9 +226,12 @@ as_of: 2026-10-03
 | What | Supplier | Terms |
 |---|---|---|
 | Raw rock salt (BATCH-001) | [TBD: name, mine or agent, location] | [TBD] |
-| Crushed salt (BATCH-075, 12 t, "Rao crushed salt inbound") | [TBD: supplier name] | Booked on credit (Rs 117,500). [TBD: paid yet?] |
+| Crushed salt (BATCH-075, 12.5 t) | [TBD: supplier name, standing price] | Bought on credit, since paid (Rs 117,500) |
 | Crushing contractor (when not done in-house) | [TBD] | Sometimes on credit [stated] |
-| Bags (bardaana), thread | [TBD] | Cash |
+| Bardaana (packing bags) | [TBD] | 700 bags for Rs 11,500 (2 Sep) ≈ Rs 16.40/bag, cash |
+| Sacks (bori), stitching thread | [TBD] | Rs 3,000 sacks, Rs 1,000 thread (10 Sep), cash |
+| Transport (salt moves) | [TBD transporter] | Freight Rs 400 + unloading Rs 2,400 (6 Sep) |
+| Retail pouches and label printing | [TBD] | [TBD price per 1,000, MOQ, lead time] |
 
 [stated] We sometimes buy salt and pay for crushing **on credit**, so supplier balances (account 2000) must be tracked by name.
 
@@ -243,128 +252,185 @@ as_of: 2026-10-03
 # 05 · Sales, Customers and Pricing
 
 ## Who we sell to today (local)
-Local **kiryana (grocery) shops**, sabzi sellers, and walk-in cash buyers near the plant. [stated]
+Local **kiryana (grocery) shops**, a sabzi seller, and walk-in cash buyers near the plant. There are no export or retail-brand customers yet. [stated]
 
-| Customer | Ledger ref | What the books show (to ~18 Sep) |
-|---|---|---|
-| Abbas — Riyaz Abadi House | PT-0064 | 18 Sep: 980 kg, Rs 11,900 on credit; owes **11,900** |
-| Haji Irshad — Mani Sabzi | PT-0063 | 14 Sep: 950 kg, Rs 6,250 on credit; owes **6,250** |
-| Haji Ashiq — Usmania Kiryana | PT-0061 | 13 Sep: 200 kg, Rs 3,200 on credit; owes **3,200** |
-| Hakim Ali — Kiryana Rashida Wali | PT-0062 | 13 Sep: 240 kg, Rs 3,140; owes **40** |
-| Cash Counter (walk-in) | PT-0066 | Small cash sales, 1–120 kg |
+| Ref | Customer (as in the ledger) | Type | [TBD] |
+|---|---|---|---|
+| PT-0061 | Haji Ashiq — Usmania Kiryana | kiryana shop | location, phone |
+| PT-0062 | Hakim Ali — Kiryana Rashida Wali | kiryana shop | location, phone |
+| PT-0063 | Haji Irshad — Mani Sabzi | sabzi/grocery shop | location, phone |
+| PT-0064 | Abbas — Riyaz Abadi House | shop or household? | location, phone, what he buys for |
+| PT-0066 | Cash Counter | walk-in cash sales, no name | — |
 
-- **Debtors total: Rs 21,390.** About **74% of first-month sales were on credit** (udhaar). [risk: cash tied up]
-- Customer phone numbers are not in the books yet. [TBD]
-- The books stop at 18 Sep for sales. Baba's register has more sales that still need entering. [stated 28 Sep]
+No customer phone numbers are in the ledger yet. Add them in the app; JARVIS needs them for reminders.
+
+## Credit (udhaar) practice
+- Most shop sales are on **credit**. Collection is **weekly or twice a week**, with no fixed rule. [stated]
+- First month: about **74% of sales were on udhaar** (Rs 21,390 of Rs 28,830). [risk: cash tied up]
+- Some customers pay **in advance**; the app records this as Customer Advances (2200).
+- **CFO rule:** "unpaid over 7 days" = outstanding minus credit sales in the last 7 days. Payments are applied to the oldest invoice first (DB view `v_udhaar_aging`).
+- **When a customer pays back:** in the ledger app, use **Receive payment** (Dashboard) or **Receive** (Debtors page). Never enter it as "money in", or the customer will still show as owing.
+- [TBD] Credit rule: maximum amount per shop, maximum days, and when to stop supplying.
+
+## Credit invoices to date [from books]
+| Invoice | Date | Customer | Items | Amount |
+|---|---|---|---|---|
+| INV-00037 | 13 Sep | Haji Ashiq | 10 × 20 kg bags | Rs 3,200 (owes 3,200) |
+| INV-00038 | 13 Sep | Hakim Ali | 5 man sabit + 2 × 20 kg bags | Rs 3,140 (owes 40) |
+| INV-00039 | 14 Sep | Haji Irshad | 15 × 50 kg bags (Rs 5/kg) + 5 man sabit | Rs 6,250 (owes 6,250) |
+| INV-00040 | 18 Sep | Abbas | 700 kg @ Rs 15 + 280 kg @ Rs 5 | Rs 11,900 (owes 11,900) |
+
+**Debtors total: Rs 21,390** (as of the last entry; sales after 18 Sep not yet entered).
 
 ## How a sale works
-- Price is agreed **per bag or per man**, and **varies with the quantity** the buyer takes. There is no fixed price list. [stated]
-- Payment: cash now, credit (udhaar), or part of each. Some customers pay **in advance**. [stated]
-- Udhaar collection: weekly or twice a week, no fixed rule. [stated] **Proposal:** set a rule, e.g. a maximum credit per customer and payment within 14 days.
-- When a customer pays back: ledger app → **Receive payment** (Dashboard) or **Receive** on the Debtors page. Never enter it as "money in", or the customer will still show as owing.
-- Delivery freight (kiraya) on a sale is **our expense** (account 5200), not a customer payment.
+- Price is agreed **per bag or per man** and **varies with the quantity** taken. There is no fixed price list. [stated]
+- Payment: cash now, credit (udhaar), or part of each.
+- Delivery freight (kiraya) is **our expense** (5200) unless the customer pays it. Example: Rs 500 on Abbas's 18 Sep delivery.
+- The app shows only products in stock, and warns when the price is below the batch cost (being added, Oct 2026).
 
-## Prices seen in the books (first month)
-| Sale | Price |
-|---|---|
-| Fine/crushed, 50 kg bags (Haji Irshad) | Rs 5.00/kg ⚠️ below cost |
-| Rock (sabit) by the man (5 man = 200 kg) | Rs 12.50/kg |
-| 20 kg bags | Rs 16.00/kg |
-| Abbas 50 kg bags | Rs 15.00/kg |
-| Walk-in small quantities | Rs 4 to Rs 50/kg (very mixed) |
-| **Average** | **≈ Rs 10.75/kg** |
+## Prices seen in the books (23 Aug – 18 Sep 2026)
+| What | Price | Per kg | Seen |
+|---|---|---|---|
+| Crushed salt, **20 kg bag**, to shops | Rs 320 / bag | **Rs 16.00** | Ashiq, Hakim Ali, walk-in (13–16 Sep) |
+| **Sabit** (whole lumps), per man (40 kg) | Rs 500 / man | **Rs 12.50** | Hakim Ali, Haji Irshad |
+| Bulk crushed, large lot (700 kg) | — | Rs 15.00 | Abbas, 18 Sep |
+| 3 man (120 kg), walk-in | Rs 1,800 | Rs 15.00 | 13 Sep |
+| **50 kg bags** / some lots | Rs 250 / 50 kg | **Rs 5.00 ⚠** | Haji Irshad 750 kg (14 Sep), Abbas 280 kg (18 Sep) |
+| Small walk-in amounts (1–20 kg) | varies | Rs 14–50 | cash counter |
+| **Average** | | **≈ Rs 10.75** | 2,682.5 kg, 16 invoices |
 
-## Cost per kg (for pricing decisions)
-- Rock salt (BATCH-001): ≈ **Rs 7.51/kg** landed.
+⚠ **Rs 5/kg is below cost.** About 1,030 kg sold this way lost roughly **Rs 4,400 against cost**.
+[TBD] Was the Rs 5/kg salt a different, lower grade (dust / chura / reject)? If yes, it needs its own product and cost in the ledger. If not, it was underpriced.
+
+## Cost per kg (for pricing)
+- Rock salt (BATCH-001): ≈ **Rs 7.51/kg** landed, before crushing.
 - Bought fine powder (BATCH-075): **Rs 9.40/kg** landed.
-- Crushed in-house: rock cost + crushing cost (labour, electricity, diesel) + wastage. [TBD: real figure after the first recorded crush runs]
-- **Rule:** the app warns when a sale is below the batch cost. Selling below cost must be a conscious decision, not an accident.
+- Crushed in-house: rock + crushing cost (labour, electricity, diesel) + wastage. [TBD: real figure after the first recorded crush runs]
 
-## Pricing guidance [TBD: Rao and baba to agree]
-- Proposal: keep a minimum price per kg for each product and bag size (cost + overhead share + margin), and let baba go above it, not below.
-- [TBD] The usual selling price today for each product and bag size (20/25/40/50 kg), and the lowest acceptable price.
+## Price list [TBD: baba to confirm]
+Fill in what baba actually charges, and the **minimum price** below which nobody sells:
+
+| Product | 20 kg | 25 kg | 40 kg / man | 50 kg | per kg (loose) | Minimum per kg |
+|---|---|---|---|---|---|---|
+| Rock (sabit / dalay) | | | Rs 500 (seen) | | | |
+| Fine powder | Rs 320 (seen) | | | | | |
+| Coarse (daana) | | | | | | |
+
+## Planned channels
+- **Retail (private label):** own delivery → wholesalers → Daraz, in that order. [stated]
+- **Export:** see 09.
 
 
 ---
 
 ---
 title: Finance and the Books
-as_of: 2026-10-03 (figures read live; books entered up to ~27 Sep)
+as_of: 2026-10-03 (figures from the ledger; sales entered to 18 Sep, expenses to 27 Sep)
 ---
 
 # 06 · Finance and the Books
 
 ## Where the truth lives
-1. **Baba's paper register (roznamcha)** is the original record. [stated]
-2. **The ledger app** (aaatradehouse-ledger.vercel.app, Supabase database) is the digital copy, in double-entry, in **paisa** (1 PKR = 100 paisa). App entries must match the register.
-3. JARVIS's CFO reads the ledger (read-only) and never invents a number.
+1. **Baba's paper register (roznamcha) is the real record.** [stated] The app must match it; differences are investigated, never guessed.
+2. **The ledger app** (aaatradehouse-ledger.vercel.app, Supabase) is the digital copy. It uses double-entry, with money in **paisa** (Rs 1 = 100 paisa) and weight in grams.
+3. **JARVIS CFO** reads the ledger read-only and never invents a number. **Live numbers (cash, udhaar, stock) must always be read fresh** from the app, JARVIS or the phone bot (`/cash`, `/udhaar`, `/runway`). The figures below are a dated snapshot.
 
-## Snapshot [from books, read 3 Oct 2026]
-| Item | PKR |
+## Snapshot [from books]
+| Item | Rs |
 |---|---|
-| Cash on hand | **506,148.00** |
-| Debtors (customers owe us) | 21,390 |
-| Stock value (rock + fine) | ≈ 205,563 |
-| Motorcycle (incl. helmet and fit-out) | 135,670 |
+| Owner capital put in (M. Shafiq Shaheen) | 1,100,000 |
+| Owner drawings (Eisha's marriage) | 10,000 |
+| **Cash on hand** (essentially the whole pot) | **506,148.00** |
+| Udhaar owed by customers | 21,390 |
+| Stock (raw 113,278.68 + crushed 92,284.50) | 205,563.18 |
+| Motorcycle (incl. permit, helmets, fit-out) | 135,670 |
+| Goats (side activity) | 55,000 |
 | Other fixed assets (scale, plant electricals, cameras) | 35,197 |
-| Goats (side asset) | 55,000 |
-| Owner capital in | 1,100,000 |
-| Owner drawings | 10,000 |
-| Sales revenue to date | 30,580 |
-| Cost of salt sold (COGS) | 26,207 → **gross margin ≈ 14%** |
+| Revenue 30,580 + other income 800 | 31,380 |
+| Cost of salt sold (COGS) | 26,206.82 |
+| Operating expenses to date | 136,205 |
+| **Result to date** | **−131,031.82 (loss)** |
 
-**Books are behind:** no sales have been entered since 18 Sep, so the figures above are out of date until baba's register (19 Sep onwards) is entered.
+Check: assets 958,968.18 = capital 1,100,000 − drawings 10,000 − loss 131,031.82 ✓
 
-## Unit economics (first month, 23 Aug – 19 Sep) [audit]
-- Sold ≈ 2,682 kg for ≈ Rs 28,830 → **≈ Rs 10.75/kg**. Cost ≈ Rs 9.40/kg → gross profit ≈ **Rs 1.35/kg**.
-- Operating spend ≈ Rs 85,000–97,000 a month (includes one-time setup costs).
-- At Rs 1.35/kg, covering overhead needs about **72 tonnes/month** of loose sales. **Loose local bulk can't carry the business.** The margin has to come from **branded retail and export**.
-- **Runway:** cash ÷ last-30-day operating spend ≈ **6 months** (506,148 ÷ 84,979, as of 28 Sep). The CFO and the bot use one shared definition (DB view `v_cfo_runway`).
+**The books are behind:** no sales have been entered since 18 Sep. Baba's register (19 Sep onwards) is being entered from Oct 2026.
 
-## Chart of accounts (what each account means)
-| Code | Account | Plain meaning |
+## Operating expenses to date by account
+| Code | Account | Rs |
 |---|---|---|
-| 1000 | Cash on Hand | The cash box |
-| 1050 | Cash — Bank | Future use |
-| 1100 | Accounts Receivable | Udhaar: customers owe us |
-| 1200 | Inventory — Raw Salt | Rock salt not yet crushed |
-| 1210 | Inventory — Bulk Processed | Fine/coarse crushed salt |
-| 1220 / 1230 | Packaged goods / packaging material | For the retail packs later |
-| 1300 / 1310 / 1240 | WIP accounts | Used inside crush runs |
-| 1400 | Vehicle (Motorcycle) | Bike, permit, helmet, fit-out (⚠ cameras were once posted here by mistake and corrected) |
-| 1450 | Livestock (Goats) | Side asset, not salt business |
-| 1500 | Other Fixed Assets | Scale, plant electricals, cameras |
-| 1900 | Suspense | Must always be 0 |
-| 2000 | Accounts Payable | We owe suppliers (credit purchases, crushing on credit) |
-| 2200 | Customer Advances | Customers paid before getting salt (2050 is a duplicate, unused) |
-| 3000 | Owner Capital | Money baba put in |
-| 3100 | Owner Drawings | Money taken out for family (e.g. Esha's gift) |
-| 4000 | Salt Sales Revenue | Sales |
-| 4100 | COGS | Cost of the salt that was sold |
-| 4900 | Other Income | |
-| 5000 | Labour | Wages, advances, loading/unloading |
-| 5100 | Utilities | Electricity, mobile and house bills |
-| 5200 | Freight | Delivery kiraya on sales |
-| 5250 | Wastage | Crushing loss |
-| 5300 | Fuel | Petrol, diesel, bike oil |
-| 5400 | Packaging consumed | Bags, sacks, thread |
-| 5500 | Site Meals & Welfare | Food, tea and milk at the plant |
-| 5600 | Travel | Fares, Indrive, rickshaw |
-| 5700 | Repairs & Maintenance | Mistri, bulbs, cables, repairs |
-| 5800 | Admin & Office | Office rent (Valencia) etc. |
-| 5900 | Other Business Expense | |
-| 5950 | Personal/Unclassified | For review |
+| 5000 | Labour (wages, advances, hamali, mazdoori) | 16,155 |
+| 5100 | Utilities (house bill, mobile, electricity) | 1,958 |
+| 5200 | Freight on deliveries (kiraya, unloading) | 3,300 |
+| 5300 | Fuel (petrol, diesel, bike oil) | 8,340 |
+| 5400 | Packaging consumed (bardaana, sacks, thread) | 15,500 |
+| 5500 | Site meals & welfare | 12,030 |
+| 5600 | Travel | 16,504 |
+| 5700 | Repairs & maintenance | 23,510 |
+| 5800 | Admin & office (incl. Valencia rent) | 26,878 |
+| 5900 | Other business expense | 12,030 |
+| | **Total** | **136,205** |
 
-## Money rules
-- Business vs household: site living costs stay as business expense (owner decision), but tag one-time vs recurring, and production vs site overhead.
-- Monthly Valencia office rent (~Rs 5,700) must be entered every month.
-- Corrections: through the app's correct or delete functions only (audited and restorable). Never edit the database by hand.
-- Cash must never go negative on any day; the app refuses such entries.
-- Every crush run, purchase on credit and customer payment gets entered the same day.
+## Key ratios
+- **Runway ≈ 6.0 months** = cash 506,148 ÷ last-30-day operating spend 84,979 (28 Sep).
+  - Definition: net debits to expense accounts (type expense, kind general), excluding 4100 COGS and 5250 wastage.
+  - This is one shared definition (DB view `v_cfo_runway`), used by JARVIS CFO and the phone bot.
+- **Loose local salt:** average price ≈ Rs 10.75/kg, cost ≈ Rs 9.40/kg, gross profit ≈ Rs 1.35/kg (≈ 12.5%).
+- **Break-even reality:** at Rs 1.35/kg, covering current overhead needs about **72 tonnes/month** of loose sales. The first month was 2.7 t. **Loose local bulk cannot carry the business. Branded retail and export margin are the lever.**
+
+## Money rules (decided)
+1. The paper roznamcha is the real record; the app must match it.
+2. **Site living costs are business expenses**, because baba and the workers live at the plant (food, tea, milk, medicine, the motorcycle). Split them into **production** vs **site overhead**, and tag one-time setup costs. [TBD: split not built yet]
+3. **Personal or family money → Owner Drawings (3100)**, never expenses. Example: Eisha's marriage, Rs 10,000.
+4. **Goats are a side activity** (1450), not salt costs.
+5. **Assets go to asset accounts:** motorcycle (1400), goats (1450), equipment and fixed items (1500).
+6. **Delivery freight on a sale is our expense** unless the customer pays it.
+7. **Valencia office rent (~Rs 5,700) must be entered every month.** Three months were pending in Sep 2026.
+8. **Never enter the same register line twice.** Example: the 24 Sep camera line is already entered.
+9. **Fix mistakes with the app's correct or delete functions** (audited, restorable). Never edit the database by hand.
+10. **Nothing is invented.** Unknown lines go to **Suspense (1900)** and are cleared with the owner. Suspense has been 0 since 27 Sep.
+11. Cash can never go negative on any day, and stock can never go negative; the app refuses such entries.
+12. Enter every crush run, credit purchase and customer payment **the same day**.
+
+## Where does this kharch go? (quick guide)
+| It's… | Account |
+|---|---|
+| Worker wage, advance, loading/unloading labour (hamali, mazdoori) | 5000 Labour |
+| Electricity bill, house bill, mobile bill | 5100 Utilities |
+| Kiraya to deliver salt to a customer | 5200 Freight |
+| Petrol, diesel, bike oil | 5300 Fuel |
+| Bags, sacks, thread used for packing | 5400 Packaging |
+| Food, tea, milk, sabzi for people at the plant | 5500 Site meals |
+| Bus, Indrive, rickshaw, fare for business trips | 5600 Travel |
+| Mistri, electrician, bulb, wire, bike repair | 5700 Repairs |
+| Office rent, stationery, admin fees | 5800 Admin |
+| Something permanent (equipment, cameras, fitted electricals) | 1500 Other Fixed Assets |
+| Anything for family or personal use | 3100 Owner Drawings |
+| Not sure | 1900 Suspense, and ask |
+
+## Chart of accounts in plain words
+| Code | Account | Meaning |
+|---|---|---|
+| 1000 | Cash on Hand | cash with baba / in the business |
+| 1050 | Cash — Bank | future bank account |
+| 1100 | Accounts Receivable | **udhaar**: customers owe us |
+| 1200 / 1210 / 1220 / 1230 | Inventory | raw rock / crushed salt / packed goods / packing material |
+| 1240, 1300, 1310 | WIP pools | used inside crush runs (internal) |
+| 1400 | Vehicle | motorcycle |
+| 1450 | Livestock | goats (side activity) |
+| 1500 | Other Fixed Assets | scale, plant electricals, cameras |
+| 1900 | Suspense | unknown lines; keep at 0 |
+| 2000 | Accounts Payable | we owe suppliers (credit purchases, crushing on credit) |
+| 2100 | Accrued Expenses | costs owed, not yet paid |
+| 2200 | Customer Advances | customers paid before delivery (2050 is an unused duplicate) |
+| 3000 / 3100 / 3200 | Capital / Drawings / Retained earnings | owner's money in / out / past results |
+| 4000 / 4100 / 4900 | Sales / COGS / Other income | |
+| 5000–5900 | Expenses | see the table above; 5250 Wastage = crushing loss |
+| 5950 | Personal/Unclassified | review bucket |
+| 5990 | Opening Balance Offset | setup only |
 
 ## Tax
-- NTN held in M. Shafiq Shaheen's name. TY2026 return: filed (confirmed 3 Oct).
-- [TBD] Sales tax / other FBR obligations once retail and export sales start.
+- NTN held by M. Shafiq Shaheen. **Tax year 2026 return: filed** (confirmed 3 Oct 2026).
+- [TBD] Sales tax and other FBR obligations once retail and export sales start.
 
 
 ---
@@ -582,6 +648,19 @@ as_of: 2026-10-03
   - stock count
   - nightly backup
 
+### Ledger app: how it works (plain words)
+- **Numbering:** EV-000xxx entries, INV invoices, DSP dispatches, BATCH stock lots, PT customers. **Numbers are never reused**; gaps are normal (dry runs, deleted tests).
+- **Offline:** the last copy can be read, but nothing can be saved. A banner shows when offline. The app updates when fully closed and reopened with signal.
+- **Money Out** starts on "Pick one…" (no default). Asset types: Vehicle 1400, Livestock 1450, Equipment 1500.
+- **Delete** ("…" → "Delete entry…"):
+  - It shows a preview and needs a reason.
+  - It removes the whole entry in one go, then re-checks the books.
+  - It refuses when something depends on the entry, and says what to delete first.
+- **Who can do what:**
+  - Rao/baba (shared login): read and write everything, including delete and restore.
+  - JARVIS (role "assistant"): read only. Later it can make proposals, which Rao approves and the database posts.
+  - Anyone else: nothing.
+
 ## JARVIS (AI COO on Rao's laptop)
 - Voice-first assistant on Windows 11 (Dell Latitude 5420, Python 3.12).
 - Folder: `C:\Users\786\Desktop\Mark-XXXIX-OR-main`. GitHub: raoaosaf4544-cell/Jarvis (master).
@@ -706,7 +785,6 @@ Answer these to complete the knowledge base. Each answer goes into the file show
 | 3 | Who supplied the 12 t of crushed salt (BATCH-075)? Has the Rs 117,500 been paid? | 04, 06 |
 | 4 | Crushing: always in-house, or sometimes a contractor? Crusher capacity per day? | 04 |
 | 5 | Workers: names, roles, monthly pay (Qasim, Rafiq, Ali, others) | 02 |
-| 6 | Correct company phone: …4286225 or …4286226? Role of +92 300 351 3889? | 01 |
 | 7 | Chamber of Commerce: which chamber, membership number, expiry | 01, 07 |
 | 8 | Is Rao's authority letter from M. Shafiq Shaheen signed? | 01 |
 | 9 | Customer phone numbers and areas | 05 |
@@ -714,6 +792,44 @@ Answer these to complete the knowledge base. Each answer goes into the file show
 | 11 | Grain sizes our crusher produces for fine and coarse (mm) | 03 |
 | 12 | Competitor shelf prices: National / Shan 800 g–1 kg in local shops | 08 |
 | 13 | Physical stock count: actual kg of rock and fine at the plant today | 04 |
+| 14 | Was the Rs 5/kg salt a lower grade (dust / chura)? | 05 |
+| 15 | Crusher owned or rented? Plant land owned or rented? Full plant postal address | 04, 01 |
+| 16 | Raw salt mine/area, price per ton at the mine, freight per truck | 04 |
+| 17 | Who/what is "Makhan"? Are Abid and Jabar recurring? | 02 |
+| 18 | Motorcycle permit line Rs 75,000: correct? | 04 |
+| 19 | Exact office rent and its due date | 01, 06 |
+| 20 | Retail pouch and label suppliers: price per 1,000, MOQ, lead time | 04, 08 |
+
+
+---
+
+---
+title: Decisions Log
+as_of: 2026-10-03
+---
+
+# 14 · Decisions Log (dated, newest last)
+
+| Date | Decision | By |
+|---|---|---|
+| 27 Sep 2026 | Sole proprietorship in M. Shafiq Shaheen's name; Rao signs as Operations Manager / Authorised Representative | Rao |
+| 27 Sep 2026 | Both 500 g and 900 g retail packs will be iodised | Rao |
+| 27 Sep 2026 | Site living costs (meals, living, motorcycle) stay business expenses, split into production vs site overhead | Rao |
+| 27 Sep 2026 | One shared ledger login for Rao and baba; baba enters on his phone (English UI) | Rao |
+| 27 Sep 2026 | JARVIS reads the ledger freely; every ledger write needs Rao's approval | Rao |
+| 27 Sep 2026 | Website PMDC/halal wording kept for now (risk flagged); the "15-day shipment" claim not added | Rao |
+| 27 Sep 2026 | Retail distribution order: own delivery → wholesalers → Daraz | Rao |
+| 27 Sep 2026 | Suspense list resolved line by line with the register; register wins over Excel | Rao |
+| 28 Sep 2026 | "Delete entry" added to the ledger app (audited, restorable), only for Rao and baba | Rao |
+| 28 Sep 2026 | n8n dropped (licence blocks SaaS resale); WhatsApp automation dropped | Rao |
+| 28 Sep 2026 | JARVIS = COO with specialist agents; first specialist = CFO (complete finance expert) | Rao |
+| 28 Sep 2026 | Phone channel: Telegram bot via Supabase (24/7) + ntfy for urgent rings; only Rao approves; snooze supported; free cloud AI answers when the laptop is off | Rao |
+| 28 Sep 2026 | JARVIS voice hides customer names while on the Gemini free tier | Rao |
+| 3 Oct 2026 | Local products reduced to three: Rock (whole/dalay), Fine Powder, Coarse (daana); bags 20/25/40/50 kg + man + kg | Rao |
+| 3 Oct 2026 | BATCH-075 (bought crushed, 14 Sep) is fine powder | Rao |
+| 3 Oct 2026 | Business knowledge base: master on the Desktop, copy in the JARVIS vault, private GitHub backup, copy in the Claude Project | Rao |
+| 3 Oct 2026 | Official phones: +92 317 4286226 and +92 300 351 3889 | Rao |
+| 3 Oct 2026 | Etsy fully parked: JARVIS never raises it unless Rao does | Rao |
 
 
 ---

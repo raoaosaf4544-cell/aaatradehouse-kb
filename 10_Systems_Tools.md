@@ -39,6 +39,19 @@ as_of: 2026-10-03
   - stock count
   - nightly backup
 
+### Ledger app: how it works (plain words)
+- **Numbering:** EV-000xxx entries, INV invoices, DSP dispatches, BATCH stock lots, PT customers. **Numbers are never reused**; gaps are normal (dry runs, deleted tests).
+- **Offline:** the last copy can be read, but nothing can be saved. A banner shows when offline. The app updates when fully closed and reopened with signal.
+- **Money Out** starts on "Pick one…" (no default). Asset types: Vehicle 1400, Livestock 1450, Equipment 1500.
+- **Delete** ("…" → "Delete entry…"):
+  - It shows a preview and needs a reason.
+  - It removes the whole entry in one go, then re-checks the books.
+  - It refuses when something depends on the entry, and says what to delete first.
+- **Who can do what:**
+  - Rao/baba (shared login): read and write everything, including delete and restore.
+  - JARVIS (role "assistant"): read only. Later it can make proposals, which Rao approves and the database posts.
+  - Anyone else: nothing.
+
 ## JARVIS (AI COO on Rao's laptop)
 - Voice-first assistant on Windows 11 (Dell Latitude 5420, Python 3.12).
 - Folder: `C:\Users\786\Desktop\Mark-XXXIX-OR-main`. GitHub: raoaosaf4544-cell/Jarvis (master).
